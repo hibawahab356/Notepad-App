@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --background: #000430;
+    --secondaryBackground: #171c48;
+    --text: #fff;
+    --purple: #828dff;
+    --teal: #24feee;
+    --gloden: #ac9256;
+}
+
+body{
+    background-color: var(--background);
+    color: var(--text);
+  
+}
+.maindiv{
+   
+    /* background-color: red; */
+  
+ margin-top: 50px;
+    
+}
+
+.container{
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    position: relative;
+    left: 266px;
+    padding: 50px;
+}
+
+.card{
+    border: 2px solid var(--purple);
+    box-shadow: 0 0 15px var(--purple);
+    border-radius: 10px;
+  
+    /* background-color: #beb3ac; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+      width: 25%;
+      height: 40vh;
+    margin-left: 40px;
+   
+
+     
+}
+
+#cardContainer{
+       display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+
+}
+
+
+.btnsDiv{
+    display: flex;
+    gap: 20px;
+    padding-top: 58px;
+}
+
+#edit{
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    width: 12vh;
+ background-color: #7fc4e4;
+
+}
+
+#dlt{
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 13px;
+    width: 12vh;
+ background-color: #7fc4e4;
+
+}
+
+
+.heading{
+    text-align: center;
+     overflow-wrap: break-word;
+    padding-top: 20px;
+    color: var(--text);
+}
+
+
+
+#note{
+   width: 76%;
+   border-radius: 15px;
+padding: 15px;
+outline: none;
+border: none;
+
+}
+input{
+    box-shadow: 0 0 50px var(--purple);
+    transition: all 2s ease;
+    
+    
+}
+
+input:focus{
+    box-shadow: 0 0 50px #ffbc20;
+
+}
+
+#btn{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+    background-color: var(--purple);
+    color: var(--text);
+    font-size: 30px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
+
+#notepad{
+    color: var(--text);
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+
+
