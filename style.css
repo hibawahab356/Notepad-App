@@ -36,31 +36,33 @@ body{
     gap: 18px;
     position: relative;
     left: 266px;
-    padding: 50px;
+    padding: 25px;
 }
 
 .card{
     border: 2px solid var(--purple);
     box-shadow: 0 0 15px var(--purple);
     border-radius: 10px;
-  
-    /* background-color: #beb3ac; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
       width: 25%;
       height: 40vh;
-    margin-left: 40px;
-   
+    margin-left: 40px; 
+  animation: smoothSlide 0.8s ease-out;
+
 
      
 }
+
+
 
 #cardContainer{
        display: flex;
       flex-wrap: wrap;
       gap: 30px;
+      margin-top: 20px;
 
 }
 
@@ -143,4 +145,12 @@ input:focus{
 
 
 
-
+.imgDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100px;
+    height: 95px;
+}
